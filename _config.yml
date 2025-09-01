@@ -3,4 +3,3 @@ logo: /avatar.jpg   # relative path to your photo
 description: "Computer Engineering student at UW. Teaching Assistant, Mary Gates Scholar, and accessibility-focused technologist."
 show_downloads: false
 theme: jekyll-theme-minimal
-show_footer: false
