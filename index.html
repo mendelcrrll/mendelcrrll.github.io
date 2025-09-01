@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Resume</title>
+  <meta name="description" content="Resume/CV for Your Name" />
+  <meta property="og:title" content="Your Name — Resume" />
+  <meta property="og:description" content="Resume/CV for Your Name" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#111827" />
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#111827; --muted:#6b7280; --link:#2563eb; --card:#f9fafb; --accent:#111827;
+    }
+    @media (prefers-color-scheme: dark){
+      :root{ --bg:#0b0f1a; --fg:#e5e7eb; --muted:#9ca3af; --link:#93c5fd; --card:#111827; --accent:#93c5fd; }
+      img{filter:brightness(0.95) contrast(1.05)}
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans","Helvetica Neue",Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    a{color:var(--link);text-decoration:none}
+    a:hover,a:focus{text-decoration:underline}
+    .container{max-width:900px;margin:0 auto;padding:28px}
+    header{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;margin-bottom:18px}
+    .id{display:flex;gap:16px;align-items:center}
+    .avatar{width:84px;height:84px;border-radius:16px;object-fit:cover;background:#ddd}
+    h1{font-size:clamp(26px,4vw,36px);line-height:1.15;margin:0}
+    .subtitle{color:var(--muted);margin-top:4px;font-weight:500}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .tag{font-size:12px;border:1px solid var(--muted);color:var(--muted);padding:4px 8px;border-radius:999px}
+    .actions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{background:var(--fg);color:var(--bg);border:none;padding:8px 12px;border-radius:10px;cursor:pointer}
+    .btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--muted)}
+    main{display:grid;grid-template-columns:2fr 1fr;gap:22px}
+    @media (max-width:820px){ main{grid-template-columns:1fr} }
+    section{background:var(--card);padding:18px;border-radius:16px;border:1px solid #e5e7eb}
+    @media (prefers-color-scheme:dark){ section{border-color:#1f2937} }
+    section h2{margin:0 0 10px 0;font-size:18px;letter-spacing:.2px}
+    .item{margin:12px 0}
+    .item h3{margin:0;font-size:16px}
+    .item .meta{color:var(--muted);font-size:14px;margin-top:2px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:600px){ .grid{grid-template-columns:1fr} }
+    ul{margin:8px 0 0 18px}
+    li{margin:6px 0}
+    footer{color:var(--muted);text-align:center;margin:28px 0 8px}
+    /* Print */
+    @media print{
+      .actions, .tags, .avatar { display:none !important }
+      body{background:#fff;color:#000}
+      section{break-inside:avoid}
+      a{color:#000;text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container" itemscope itemtype="https://schema.org/Person">
+    <header>
+      <div class="id">
+        <img class="avatar" src="avatar.jpg" alt="Headshot of Your Name" itemprop="image" />
+        <div>
+          <h1 itemprop="name">Your Name</h1>
+          <div class="subtitle" itemprop="jobTitle">Your Role — e.g., Software Engineer</div>
+          <div class="tags" aria-label="key skills">
+            <div class="tag">Python</div>
+            <div class="tag">React</div>
+            <div class="tag">Accessibility</div>
+            <div class="tag">Systems</div>
+          </div>
+        </div>
+      </div>
+      <nav class="actions" aria-label="quick actions">
+        <a class="btn secondary" href="mailto:you@example.com" itemprop="email">Email</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn secondary" href="https://github.com/your-handle" target="_blank" rel="noreferrer" itemprop="url">GitHub</a>
+        <button class="btn" onclick="window.print()">Print / Save PDF</button>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="summary">
+        <h2 id="summary">Summary</h2>
+        <p itemprop="description">Brief (2–3 sentences) pitch about what you do, what you care about, and the value you bring. Keep it specific and measurable where possible.</p>
+      </section>
+
+      <section aria-labelledby="skills">
+        <h2 id="skills">Skills</h2>
+        <div class="grid">
+          <div>
+            <h3>Languages</h3>
+            <p>Python, C/C++, Java, JavaScript/TypeScript</p>
+          </div>
+          <div>
+            <h3>Technologies</h3>
+            <p>React, Node, Linux, AWS, PostgreSQL, Docker</p>
+          </div>
+          <div>
+            <h3>Focus</h3>
+            <p>Accessibility, Systems, Data</p>
+          </div>
+          <div>
+            <h3>Tools</h3>
+            <p>Git, VS Code, Figma, Jupyter</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="experience">
+        <h2 id="experience">Experience</h2>
+
+        <article class="item" itemscope itemtype="https://schema.org/Organization" aria-labelledby="exp1-title">
+          <h3 id="exp1-title"><span itemprop="name">Company Name</span> — Role</h3>
+          <div class="meta">
+            <time datetime="2023-06">Jun 2023</time> – <time datetime="2025-08">Aug 2025</time> · City, ST · Full-time
+          </div>
+          <ul>
+            <li>Shipped X that did Y, resulting in Z% improvement.</li>
+            <li>Led N people to deliver … on time and under budget.</li>
+            <li>Built A using B and C; reduced latency by M ms.</li>
+          </ul>
+        </article>
+
+        <article class="item" aria-labelledby="exp2-title">
+          <h3 id="exp2-title">Another Company — Role</h3>
+          <div class="meta"><time datetime="2022-01">Jan 2022</time> – <time datetime="2023-05">May 2023</time> · City, ST</div>
+          <ul>
+            <li>Key accomplishment bullet one.</li>
+            <li>Key accomplishment bullet two.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="projects">
+        <h2 id="projects">Selected Projects</h2>
+        <article class="item" aria-labelledby="proj1-title">
+          <h3 id="proj1-title"><a href="#">Project Name</a></h3>
+          <div class="meta">GitHub • Tech stack • 2–3 line description</div>
+          <ul>
+            <li>What it does + impact/usage.</li>
+            <li>Interesting technical detail or challenge solved.</li>
+          </ul>
+        </article>
+        <article class="item" aria-labelledby="proj2-title">
+          <h3 id="proj2-title"><a href="#">Another Project</a></h3>
+          <div class="meta">Demo • Tech stack</div>
+          <ul>
+            <li>Highlight result and metrics if possible.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section aria-labelledby="education">
+        <h2 id="education">Education</h2>
+        <div class="item">
+          <h3>University Name — Degree</h3>
+          <div class="meta">City, ST · <time datetime="2026">Expected 2026</time></div>
+          <ul>
+            <li>Relevant coursework: Systems, Algorithms, HCI …</li>
+            <li>Awards/Scholarships: …</li>
+          </ul>
+        </div>
+      </section>
+
+      <section aria-labelledby="extras">
+        <h2 id="extras">Awards & Extras</h2>
+        <ul>
+          <li>Award or scholarship • Year</li>
+          <li>Volunteer work or leadership role</li>
+          <li>Publications or talks (optional)</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <small>© <span id="y"></span> Your Name • Built with plain HTML/CSS • <a href="#top">Back to top</a></small>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
