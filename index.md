@@ -46,4 +46,10 @@ _Seattle, WA · Jun 2024 · GPA: 3.97_
 
 ## Languages
 - English, Hebrew (Fluent)  
-- ASL (Beginner)  
+- ASL (Beginner)
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>
