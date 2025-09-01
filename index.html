@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Resume</title>
-  <meta name="description" content="Resume/CV for Your Name" />
-  <meta property="og:title" content="Your Name — Resume" />
-  <meta property="og:description" content="Resume/CV for Your Name" />
+  <title>Menachem Carroll — Resume</title>
+  <meta name="description" content="Resume/CV for Menachem Carroll" />
+  <meta property="og:title" content="Menachem Carroll — Resume" />
+  <meta property="og:description" content="Resume/CV for Menachem Carroll" />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#111827" />
   <style>
@@ -44,7 +44,6 @@
     ul{margin:8px 0 0 18px}
     li{margin:6px 0}
     footer{color:var(--muted);text-align:center;margin:28px 0 8px}
-    /* Print */
     @media print{
       .actions, .tags, .avatar { display:none !important }
       body{background:#fff;color:#000}
@@ -57,21 +56,21 @@
   <div class="container" itemscope itemtype="https://schema.org/Person">
     <header>
       <div class="id">
-        <img class="avatar" src="avatar.jpg" alt="Headshot of Your Name" itemprop="image" />
+        <img class="avatar" src="avatar.jpg" alt="Headshot of Menachem Carroll" itemprop="image" />
         <div>
-          <h1 itemprop="name">Your Name</h1>
-          <div class="subtitle" itemprop="jobTitle">Your Role — e.g., Software Engineer</div>
+          <h1 itemprop="name">Menachem Carroll</h1>
+          <div class="subtitle" itemprop="jobTitle">Computer Engineering Student & Teaching Assistant</div>
           <div class="tags" aria-label="key skills">
+            <div class="tag">Java</div>
             <div class="tag">Python</div>
-            <div class="tag">React</div>
-            <div class="tag">Accessibility</div>
-            <div class="tag">Systems</div>
+            <div class="tag">C/C++</div>
+            <div class="tag">Hardware/Software Interface</div>
           </div>
         </div>
       </div>
       <nav class="actions" aria-label="quick actions">
-        <a class="btn secondary" href="mailto:you@example.com" itemprop="email">Email</a>
-        <a class="btn secondary" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn secondary" href="mailto:mcarro5@cs.washington.edu" itemprop="email">Email</a>
+        <a class="btn secondary" href="tel:+17868282875">Call</a>
         <a class="btn secondary" href="https://github.com/your-handle" target="_blank" rel="noreferrer" itemprop="url">GitHub</a>
         <button class="btn" onclick="window.print()">Print / Save PDF</button>
       </nav>
@@ -80,27 +79,27 @@
     <main>
       <section aria-labelledby="summary">
         <h2 id="summary">Summary</h2>
-        <p itemprop="description">Brief (2–3 sentences) pitch about what you do, what you care about, and the value you bring. Keep it specific and measurable where possible.</p>
+        <p itemprop="description">Computer Engineering student at the University of Washington with a strong background in e-commerce, nonprofit technology advising, and teaching assistance. Experienced in systems, hardware/software interface, and accessibility-focused technology development.</p>
       </section>
 
       <section aria-labelledby="skills">
         <h2 id="skills">Skills</h2>
         <div class="grid">
           <div>
-            <h3>Languages</h3>
-            <p>Python, C/C++, Java, JavaScript/TypeScript</p>
+            <h3>Programming</h3>
+            <p>Java, Python, C, C++</p>
           </div>
           <div>
-            <h3>Technologies</h3>
-            <p>React, Node, Linux, AWS, PostgreSQL, Docker</p>
+            <h3>Problem-Solving</h3>
+            <p>Computational Logic, Physics III, Statistics</p>
           </div>
           <div>
-            <h3>Focus</h3>
-            <p>Accessibility, Systems, Data</p>
+            <h3>Coursework</h3>
+            <p>Hardware/Software Interface, Data Structures & Concurrency, Digital Design, Circuits, Systems Design</p>
           </div>
           <div>
-            <h3>Tools</h3>
-            <p>Git, VS Code, Figma, Jupyter</p>
+            <h3>Projects</h3>
+            <p>Mini Google search engine, Flappy Bird FPGA game, Data Structures from scratch, Circuits on breadboard, ASR system (non-ML model)</p>
           </div>
         </div>
       </section>
@@ -108,71 +107,87 @@
       <section aria-labelledby="experience">
         <h2 id="experience">Experience</h2>
 
-        <article class="item" itemscope itemtype="https://schema.org/Organization" aria-labelledby="exp1-title">
-          <h3 id="exp1-title"><span itemprop="name">Company Name</span> — Role</h3>
-          <div class="meta">
-            <time datetime="2023-06">Jun 2023</time> – <time datetime="2025-08">Aug 2025</time> · City, ST · Full-time
-          </div>
+        <article class="item">
+          <h3>Teaching Assistant – CSE351: The Hardware/Software Interface</h3>
+          <div class="meta">University of Washington · Mar 2025 – Present</div>
           <ul>
-            <li>Shipped X that did Y, resulting in Z% improvement.</li>
-            <li>Led N people to deliver … on time and under budget.</li>
-            <li>Built A using B and C; reduced latency by M ms.</li>
+            <li>Lead discussion sections and office hours, guiding students in number representation, assembly, and memory management.</li>
+            <li>Assist in grading assignments and exams, providing constructive feedback.</li>
+            <li>Collaborate with instructors to refine course materials and improve engagement.</li>
           </ul>
         </article>
 
-        <article class="item" aria-labelledby="exp2-title">
-          <h3 id="exp2-title">Another Company — Role</h3>
-          <div class="meta"><time datetime="2022-01">Jan 2022</time> – <time datetime="2023-05">May 2023</time> · City, ST</div>
+        <article class="item">
+          <h3>Nonprofit Technology Advisor</h3>
+          <div class="meta">Community Homes · Jun 2024 – Present</div>
           <ul>
-            <li>Key accomplishment bullet one.</li>
-            <li>Key accomplishment bullet two.</li>
+            <li>Implemented tech solutions to improve matching adults with disabilities to family homes.</li>
+            <li>Streamlined placement processes and enhanced staff workflows.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>Owner/Operator</h3>
+          <div class="meta">Ecom Consulting LLC · Mar 2022 – Present</div>
+          <ul>
+            <li>Designed and implemented technology solutions to optimize business performance.</li>
+            <li>Analyzed user requirements and adapted development strategies accordingly.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <h3>E-commerce Specialist</h3>
+          <div class="meta">AAAA World Inc · Jun 2022 – Jun 2023</div>
+          <ul>
+            <li>Managed e-commerce operations, optimized conversion rates, and implemented marketing strategies.</li>
           </ul>
         </article>
       </section>
 
-      <section aria-labelledby="projects">
-        <h2 id="projects">Selected Projects</h2>
-        <article class="item" aria-labelledby="proj1-title">
-          <h3 id="proj1-title"><a href="#">Project Name</a></h3>
-          <div class="meta">GitHub • Tech stack • 2–3 line description</div>
+      <section aria-labelledby="military">
+        <h2 id="military">Military Service</h2>
+        <div class="item">
+          <h3>Combat Emergency Medical Technician</h3>
+          <div class="meta">Israeli Defense Force · Mar 2016 – Oct 2018</div>
           <ul>
-            <li>What it does + impact/usage.</li>
-            <li>Interesting technical detail or challenge solved.</li>
+            <li>Served as a combat EMT in IDF Engineering Brigade, providing medical and operational support.</li>
+            <li>Specialized in rapid problem-solving and system analysis under high-pressure conditions.</li>
           </ul>
-        </article>
-        <article class="item" aria-labelledby="proj2-title">
-          <h3 id="proj2-title"><a href="#">Another Project</a></h3>
-          <div class="meta">Demo • Tech stack</div>
-          <ul>
-            <li>Highlight result and metrics if possible.</li>
-          </ul>
-        </article>
+        </div>
       </section>
 
       <section aria-labelledby="education">
         <h2 id="education">Education</h2>
         <div class="item">
-          <h3>University Name — Degree</h3>
-          <div class="meta">City, ST · <time datetime="2026">Expected 2026</time></div>
-          <ul>
-            <li>Relevant coursework: Systems, Algorithms, HCI …</li>
-            <li>Awards/Scholarships: …</li>
-          </ul>
+          <h3>University of Washington — B.S. Computer Engineering</h3>
+          <div class="meta">Seattle, WA · Expected Dec 2026</div>
+        </div>
+        <div class="item">
+          <h3>Seattle Central College — A.S. Computer Engineering</h3>
+          <div class="meta">Seattle, WA · Jun 2024 · GPA: 3.97</div>
         </div>
       </section>
 
-      <section aria-labelledby="extras">
-        <h2 id="extras">Awards & Extras</h2>
+      <section aria-labelledby="certs">
+        <h2 id="certs">Certifications & Awards</h2>
         <ul>
-          <li>Award or scholarship • Year</li>
-          <li>Volunteer work or leadership role</li>
-          <li>Publications or talks (optional)</li>
+          <li>Mary Gates Scholar – Leadership · Dec 2024</li>
+          <li>Home Care Aid (HCA) · Jan 2024</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="languages">
+        <h2 id="languages">Languages</h2>
+        <ul>
+          <li>English — Fluent</li>
+          <li>Hebrew — Fluent</li>
+          <li>American Sign Language (ASL) — Beginner</li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <small>© <span id="y"></span> Your Name • Built with plain HTML/CSS • <a href="#top">Back to top</a></small>
+      <small>© <span id="y"></span> Menachem Carroll • Built with plain HTML/CSS • <a href="#top">Back to top</a></small>
     </footer>
   </div>
 
