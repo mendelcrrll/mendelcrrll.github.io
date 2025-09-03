@@ -1,62 +1,126 @@
-## Personal details
-
-Seattle, WA • (786)-828-2875 • [mcarro5@cs.washington.edu](mailto:mcarro5@cs.washington.edu)
-
----
-
-## Education
-**University of Washington** — B.S. Computer Engineering  
-_Seattle, WA · Expected Dec 2026_
-
-**Seattle Central College** — A.S. Computer Engineering  
-_Seattle, WA · Jun 2024 · GPA: 3.97_
-
----
-
-## Skills
-- Programming: Java, Python, C, C++
-- Coursework: Hardware/Software Interface, Data Structures, Digital Design
-
----
-
-## Projects 
-
-- “Mini Google” search engine
-- FPGA Flappy Bird
-- ASR system for CP
-
----
-
-## Experience
-**Teaching Assistant, CSE351** — University of Washington _(Mar 2025 – Present)_  
-- Led discussion sections and office hours on assembly and memory.  
-- Assisted grading and refined course materials.  
-
-**Nonprofit Technology Advisor** — Community Homes _(Jun 2024 – Present)_  
-- Built tech to match adults with disabilities to family homes.  
-
-**Owner/Operator** — Ecom Consulting LLC _(Mar 2022 – Present)_  
-- Designed and implemented business performance tech solutions.  
-
----
-
-## Military Service
-**Combat EMT** — Israeli Defense Force _(Mar 2016 – Oct 2018)_  
-
----
-
-## Awards & Certifications
-- Mary Gates Scholar – Leadership (Dec 2024)  
-- Home Care Aid (HCA) (Jan 2024)  
-
----
-
-## Languages
-- English, Hebrew (Fluent)  
-- ASL (Beginner)
-
 <style>
-  .footer {
-    display: none;
+  body {
+    background: #0d0d0d; /* darker than Hacker default */
+    color: #eee;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .section {
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: #111;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.8);
+  }
+
+  h2 {
+    margin-top: 0;
+    color: #66ff99; /* hacker green accent */
+  }
+
+  a {
+    color: #4ecdc4;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
   }
 </style>
+
+<div class="section">
+  <h2>Personal Details</h2>
+  Seattle, WA • (786)-828-2875 • <a href="mailto:mcarro5@cs.washington.edu">mcarro5@cs.washington.edu</a>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+  <strong>University of Washington</strong> — B.S. Computer Engineering  
+  <em>Seattle, WA · Expected Dec 2026</em><br><br>
+  <strong>Seattle Central College</strong> — A.S. Computer Engineering  
+  <em>Seattle, WA · Jun 2024 · GPA: 3.97</em>
+</div>
+
+<div class="section">
+  <h2>Skills</h2>
+  <ul>
+    <li>Programming: Java, Python, C, C++</li>
+    <li>Coursework: Hardware/Software Interface, Data Structures, Digital Design</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Projects</h2>
+  <ul>
+    <li>“Mini Google” search engine</li>
+    <li>FPGA Flappy Bird</li>
+    <li>ASR system for CP</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>External Links</h2>
+  <div class="grid">
+    <div class="section">
+      <h3>Community Homes</h3>
+      <a href="https://www.community-homes.org/" target="_blank">Visit Website</a>
+    </div>
+    <div class="section">
+      <h3>AAAA World</h3>
+      <a href="https://www.amazon.com/s?me=A3QNDWTFYX6H13&marketplaceID=ATVPDKIKX0DER" target="_blank">Amazon</a> |
+      <a href="https://www.ebay.com/str/aaaauniverse" target="_blank">eBay</a>
+    </div>
+    <div class="section">
+      <h3>School Projects</h3>
+      <a href="https://courses.cs.washington.edu/courses/cse351/cachesim/" target="_blank">Cache Simulator</a> |
+      <a href="https://courses.cs.washington.edu/courses/cse351/vmsim/" target="_blank">VM Simulator</a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+  <strong>Teaching Assistant, CSE351</strong> — University of Washington (Mar 2025 – Present)<br>
+  - Led discussion sections and office hours on assembly and memory.<br>
+  - Assisted grading and refined course materials.<br><br>
+
+  <strong>Nonprofit Technology Advisor</strong> — Community Homes (Jun 2024 – Present)<br>
+  - Built tech to match adults with disabilities to family homes.<br><br>
+
+  <strong>Owner/Operator</strong> — Ecom Consulting LLC (Mar 2022 – Present)<br>
+  - Designed and implemented business performance tech solutions.
+</div>
+
+<div class="section">
+  <h2>Military Service</h2>
+  <strong>Combat EMT</strong> — Israeli Defense Force (Mar 2016 – Oct 2018)
+</div>
+
+<div class="section">
+  <h2>Awards & Certifications</h2>
+  <ul>
+    <li>Mary Gates Scholar – Leadership (Dec 2024)</li>
+    <li>Home Care Aid (HCA) (Jan 2024)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Languages</h2>
+  <ul>
+    <li>English, Hebrew (Fluent)</li>
+    <li>ASL (Beginner)</li>
+  </ul>
+</div>
