@@ -1,4 +1,4 @@
-# Menachem Carroll
+## Personal details
 
 Seattle, WA • (786)-828-2875 • [mcarro5@cs.washington.edu](mailto:mcarro5@cs.washington.edu)
 
@@ -16,7 +16,14 @@ _Seattle, WA · Jun 2024 · GPA: 3.97_
 ## Skills
 - Programming: Java, Python, C, C++
 - Coursework: Hardware/Software Interface, Data Structures, Digital Design
-- Projects: “Mini Google” search engine, FPGA Flappy Bird, ASR system (non-ML model)
+
+---
+
+## Projects 
+
+- “Mini Google” search engine
+- FPGA Flappy Bird
+- ASR system for CP
 
 ---
 
