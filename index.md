@@ -42,6 +42,17 @@
 </style>
 
 <div class="section">
+  <h2>A Bit About Me</h2>
+  <p>
+    Hi! I’m Menachem Carroll — a computer engineering student at the University of Washington
+    with a passion for accessible technology and systems programming. I’ve worked in e-commerce,
+    nonprofit tech, and as a teaching assistant, and I’m motivated by building tools that have
+    real impact. Outside of school and work, I enjoy triathlons and finding creative ways to
+    apply technology to everyday problems.
+  </p>
+</div>
+
+<div class="section">
   <h2>Personal Details</h2>
   Seattle, WA • (786)-828-2875 • <a href="mailto:mcarro5@cs.washington.edu">mcarro5@cs.washington.edu</a>
 </div>
