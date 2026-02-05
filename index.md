@@ -1,3 +1,9 @@
+<a class="skip-link" href="#content">Skip to main content</a>
+
+<h1>Menachem Carroll</h1>
+
+<main id="content" role="main">
+
 <div class="section">
   <h2>A Bit About Me</h2>
   <p>
@@ -11,7 +17,7 @@
 
 <div class="section">
   <h2>Personal Details</h2>
-  Seattle, WA • (786)-828-2875 • <a href="mailto:mcarro5@cs.washington.edu">mcarro5@cs.washington.edu</a>
+  Seattle, WA • <a href="tel:+17868282875" aria-label="Call Menachem Carroll">+1 (786) 828-2875</a> • <a href="mailto:mcarro5@cs.washington.edu" aria-label="Email Menachem Carroll">mcarro5@cs.washington.edu</a>
 </div>
 
 <div class="section">
@@ -44,19 +50,21 @@
   <div class="grid">
     <div class="section">
       <h3>Community Homes</h3>
-      <a href="https://www.community-homes.org/" target="_blank">Visit Website</a>
+      <a href="https://www.community-homes.org/" target="_blank" rel="noopener noreferrer" aria-label="Open Community Homes (opens in new window)">Visit Website</a>
     </div>
     <div class="section">
       <h3>AAAA World</h3>
-      <a href="https://www.amazon.com/s?me=A3QNDWTFYX6H13&marketplaceID=ATVPDKIKX0DER" target="_blank">Amazon</a> |
-      <a href="https://www.ebay.com/str/aaaauniverse" target="_blank">eBay</a>
+      <a href="https://www.amazon.com/s?me=A3QNDWTFYX6H13&marketplaceID=ATVPDKIKX0DER" target="_blank" rel="noopener noreferrer" aria-label="Open Amazon store (opens in new window)">Amazon</a> |
+      <a href="https://www.ebay.com/str/aaaauniverse" target="_blank" rel="noopener noreferrer" aria-label="Open eBay store (opens in new window)">eBay</a>
     </div>
     <div class="section">
       <h3>School Projects</h3>
-      <a href="https://courses.cs.washington.edu/courses/cse351/cachesim/" target="_blank">Cache Simulator</a> |
-      <a href="https://courses.cs.washington.edu/courses/cse351/vmsim/" target="_blank">VM Simulator</a>
+      <a href="https://courses.cs.washington.edu/courses/cse351/cachesim/" target="_blank" rel="noopener noreferrer" aria-label="Open Cache Simulator (opens in new window)">Cache Simulator</a> |
+      <a href="https://courses.cs.washington.edu/courses/cse351/vmsim/" target="_blank" rel="noopener noreferrer" aria-label="Open VM Simulator (opens in new window)">VM Simulator</a>
     </div>
   </div>
+
+</main>
 </div>
 
 <div class="section">
