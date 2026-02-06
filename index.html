@@ -44,12 +44,20 @@
         }
 
         .headshot {
-            width: 180px;
-            height: 180px;
+            width: 280px;
+            height: 280px;
             border-radius: 50%;
             object-fit: cover;
+            object-position: center;
             border: 4px solid white;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .headshot:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
         }
 
         header h1 {
@@ -266,7 +274,7 @@
     <a class="skip-link" href="#content">Skip to main content</a>
 
     <header>
-        <img src="Headshot.png" alt="Menachem Carroll headshot" class="headshot">
+        <img src="Headshot.png" alt="Menachem Carroll headshot" class="headshot" onclick="openModal('headshotModal')" role="button" tabindex="0" onkeypress="if(event.key==='Enter') openModal('headshotModal')">
         <div>
             <h1>Menachem Carroll</h1>
             <p>Computer Engineer | Systems Programming | Accessible Technology</p>
@@ -373,6 +381,14 @@
     </main>
 
     <!-- Modals for Project Details -->
+    <div id="headshotModal" class="modal" role="dialog" aria-labelledby="headshot-modal-title">
+        <div class="modal-content">
+            <button type="button" class="modal-close" onclick="closeModal('headshotModal')" aria-label="Close modal">&times;</button>
+            <h2 id="headshot-modal-title" style="margin-bottom: 1rem;">Menachem Carroll</h2>
+            <img src="Headshot.png" alt="Menachem Carroll full headshot" style="width: 100%; height: auto; border-radius: 8px;">
+        </div>
+    </div>
+
     <div id="project1" class="modal" role="dialog" aria-labelledby="project1-title">
         <div class="modal-content">
             <button type="button" class="modal-close" onclick="closeModal('project1')" aria-label="Close modal">&times;</button>
