@@ -37,6 +37,19 @@
             color: white;
             padding: 3rem 2rem;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .headshot {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
@@ -246,19 +259,18 @@
             outline-offset: 2px;
         }
 
-        /* add my headshot as a background image in the header */
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%), url('headshot.jpg') no-repeat center center;
-            background-size: cover;
-        }
+
     </style>
 </head>
 <body>
     <a class="skip-link" href="#content">Skip to main content</a>
 
     <header>
-        <h1>Menachem Carroll</h1>
-        <p>Computer Engineer | Systems Programming | Accessible Technology</p>
+        <img src="Headshot.png" alt="Menachem Carroll headshot" class="headshot">
+        <div>
+            <h1>Menachem Carroll</h1>
+            <p>Computer Engineer | Systems Programming | Accessible Technology</p>
+        </div>
     </header>
 
     <nav aria-label="Main navigation">
